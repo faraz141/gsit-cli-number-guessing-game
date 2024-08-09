@@ -30,14 +30,14 @@ async function playGame() {
 
     while (playAgain) {
         // Generate a random number between 1 and 6
-        const randomNumber = Math.floor(Math.random() * 6 + 1);
+        const randomNumber = Math.floor(Math.random() * 10 + 1);
 
         // Ask the user to guess the number
         const answer = await inquirer.prompt([
             {
                 name: "userGuessNumber",
                 type: "number",
-                message: "Please guess a number between 1-6",
+                message: "Please guess a number between 1-10",
             },
         ]);
 
