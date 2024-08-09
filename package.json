@@ -1,6 +1,6 @@
 {
   "name": "fa2004-gsit-cli-number-guessing-game",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "This is a cli based ",
   "main": "index.js",
   "type": "module",
